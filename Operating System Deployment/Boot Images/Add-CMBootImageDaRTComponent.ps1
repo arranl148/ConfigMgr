@@ -114,7 +114,7 @@ Begin {
         Write-Verbose -Message "DaRT installation path: $($DaRTInstallPath)"
     }
     catch [System.Exception] {
-        Write-Warning -Message "Unable to detect MDT installation location. Error message: $($_.Exception.Message)" ; break
+        Write-Warning -Message "Unable to detect DaRT installation location. Error message: $($_.Exception.Message)" ; break
     }
 }
 Process {
